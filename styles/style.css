@@ -1,0 +1,94 @@
+html, body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.my-name{
+    margin-left: 40px;
+    margin-top: 0px;
+}
+.card{
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+hr{
+    width :50%;
+    height: 20px;
+    margin: auto;
+    /* border: 5px; */
+}
+p.card-text{
+    color: azure;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+h5.card-title{
+    color: azure;
+    font-family: 'Arial', sans-serif;
+    font-size: 26px;
+}
+a.my-name{
+    color:azure;
+    font-family: 'Arial', sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    color: inherit;
+}
+h1.my-project{
+    color:azure;
+    font-family: 'Arial', sans-serif;
+    font-size: 40px; 
+    text-align: center;
+}
+.card{
+    width:25rem;
+    background-color:#6f6f6f ;
+    height: 500px;
+}
+img.card-img-top{
+        width: 340px;
+        height: 260px;
+        margin-left: 20px;
+}
+.contacts{
+    color:azure;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px; 
+    margin-top: 10px;
+    margin-bottom:-30px;
+}
+.social-links {
+    display: flex;
+    gap: 20px;
+    margin-left: 200px;
+}
+.social-link{
+    width:30px;
+    height:30px;
+}
+footer.py-2{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+body{
+background-color: #212529;
+color: azure;
+}
+.default-text{
+font-size: 22px;
+text-align: left;
+padding-left: 60px;
+padding-right: 100px;
+}
+strong{
+    color:bisque;
+}
+img{
+    width: 50%;
+    height: 50%;
+}
